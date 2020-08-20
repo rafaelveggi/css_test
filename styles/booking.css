@@ -1,0 +1,17 @@
+.booking {
+  text-align: center;
+  margin: var(--titanic) auto;
+}
+
+.booking_icon-heart {
+  margin: var(--huge) auto;
+  width: var(--huge);
+}
+
+.booking:after {
+  content: "";
+  height: var(--titanic);
+  margin: var(--huge);
+  border-left: solid 1px var(--tertiary);
+  display: inline-block;
+}

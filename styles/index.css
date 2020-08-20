@@ -1,2 +1,9 @@
 @import "theme.css";
 @import "reset.css";
+@import "utils.css";
+@import "headings.css";
+@import "player.css";
+@import "footer.css";
+@import "carousel.css";
+@import "booking.css";
+@import "environment.css";
