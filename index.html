@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="https://kit.fontawesome.com/49d1995a5f.js" crossorigin="anonymous"></script>
+  <title>Video Player Test</title>
+</head>
+
+<body>
+
+  <main>
+    <h1>Breathtaking beauty</h1>
+
+    <div class="player">
+      <video preload="metadata" poster="assets/img/video_posters/video1.jpg">
+        <source src="assets/videos/video1.mp4" type="video/mp4">
+      </video>
+      <button class="player_button_overlay icon-button" type="button" data-state="play"></button>
+      <div class="player_controls">
+        <button class="player_button_play-pause icon-button" type="button" data-state="play"></button>
+        <div class="player_progress"></div>
+        <button class="player_button_fullscreen icon-button" type="button" data-state="go-fullscreen"></button>
+      </div>
+    </div>
+
+    <section class="booking">
+      <img class="booking_icon-heart" src="assets/img/icons/heart.png" alt="Heart icon">
+      <p>
+        20% of your booking will support these organisations
+      </p>
+    </section>
+
+    <div class="carousel">
+      <button type="button" class="carousel_button-previous icon-button"> </button>
+      <button type="button" class="carousel_button-next icon-button"> </button>
+      <div class="carousel_index">
+        <button type="button" class="carousel_index_button selected">●</button>
+        <button type="button" class="carousel_index_button">●</button>
+        <button type="button" class="carousel_index_button">●</button>
+      </div>
+
+      <ul class="carousel_items">
+        <li class="environment">
+          <img class="environment_image" src="assets/img/carousel/carousel1.jpg" alt="Close-up of chorals">
+          <section class="environment_section">
+            <article class="environment_article">
+              <h3>The Environment</h3>
+              <h4>Living Oceans Foundation</h4>
+              <p class="center-text">
+                We help preserve, protect and restore the world’s oceans and aquatic resources through research,
+                education, and outreach.
+              </p>
+            </article>
+            <button class="environment_button" type="button">FIND OUT MORE</button>
+          </section>
+        </li>
+      </ul>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <img class="footer_image" src="assets/img/footer/footer.jpg" alt="Aerial view of a tropical beach" />
+    <ul class="footer_links">
+      <li>ABOUT</li>
+      <li>CONTACT</li>
+      <li>LEGAL</li>
+    </ul>
+    <small class="footer_copyright">
+      Copyright © 2019 Site.com. All rights reserved.
+    </small>
+  </footer>
+
+  <script src="scripts/video-player.js"></script>
+
+</body>
+
+</html>
