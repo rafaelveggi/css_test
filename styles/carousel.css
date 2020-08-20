@@ -48,7 +48,6 @@
 .carousel_index_button {
   font-size: var(--tiny);
   padding: var(--tiny);
-  margin: var(--tiny);
   color: var(--tertiary);
 }
 
@@ -61,9 +60,5 @@
   .carousel_button-previous,
   .carousel_button-next {
     padding: var(--small);
-  }
-
-  .carousel_index_button {
-    margin: 0;
   }
 }
