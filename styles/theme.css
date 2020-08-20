@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&family=Quicksand&family=Rubik&display=swap");
+
+:root {
+  --text-default-size: 14px;
+  --page-max-width: 900px;
+
+  --titanic: 4rem;
+  --huge: 2rem;
+  --large: 1.4rem;
+  --medium: 1rem;
+  --small: 0.8rem;
+  --tiny: 0.6rem;
+
+  --primary: #333;
+  --secondary: #ffffff;
+  --tertiary: #aaa;
+  --green1: #25ba06;
+  --green2: #158a06;
+  --yellow1: yellow;
+  --yellow2: goldenrod;
+
+  --transition-color: background-color 0.25s, border-color 0.1s, color 0.25s;
+
+  --text-shadow: 2px 2px 2px #000;
+
+  --font-mono: "Inconsolata", monospace;
+  --font-cursive: "Pacifico", cursive;
+  --font-sans-title: "Quicksand", sans-serif;
+  --font-sans-text: "Rubik", sans-serif;
+}
